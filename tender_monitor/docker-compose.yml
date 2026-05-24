@@ -1,0 +1,30 @@
+version: "3.9"
+
+services:
+  tender_monitor:
+    build: .
+    container_name: tender_monitor
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - ./data:/app/data              # Persist SQLite database
+      - ./logs:/app/logs              # Persist log files
+      - ./credentials.json:/app/credentials.json:ro  # Google service account
+    environment:
+      - TZ=Asia/Kolkata
+
+  # ── Optional: PostgreSQL for production ───────────────────────
+  # Uncomment if you want PostgreSQL instead of SQLite
+  #
+  # db:
+  #   image: postgres:16-alpine
+  #   restart: unless-stopped
+  #   environment:
+  #     POSTGRES_DB: tenders_db
+  #     POSTGRES_USER: tenders
+  #     POSTGRES_PASSWORD: changeme
+  #   volumes:
+  #     - pg_data:/var/lib/postgresql/data
+  #
+  # volumes:
+  #   pg_data:

@@ -1,0 +1,36 @@
+2026-05-23 00:37:00 [INFO] __main__: ============================================================
+2026-05-23 00:37:00 [INFO] __main__: Starting tender monitoring cycle
+2026-05-23 00:37:00 [INFO] __main__: ============================================================
+2026-05-23 00:37:00 [INFO] __main__: Scraping: CPPP (eProcure)
+2026-05-23 00:37:05 [INFO] __main__:   → Found 0 tenders from CPPP (eProcure)
+2026-05-23 00:37:05 [INFO] __main__: Scraping: GeM Portal
+2026-05-23 00:38:25 [INFO] __main__:   → Found 0 tenders from GeM Portal
+2026-05-23 00:38:25 [INFO] __main__: Scraping: NIC & Central PSUs
+2026-05-23 00:43:20 [INFO] __main__:   → Found 19 tenders from NIC & Central PSUs
+2026-05-23 00:43:20 [INFO] __main__: Scraping: State Portals
+2026-05-23 00:44:54 [INFO] __main__:   → Found 185 tenders from State Portals
+2026-05-23 00:44:54 [INFO] __main__: 
+Total raw tenders fetched: 204
+2026-05-23 00:44:54 [INFO] __main__: Relevant tenders after filtering: 1
+2026-05-23 00:44:54 [INFO] __main__: New tenders (not yet reported): 1
+2026-05-23 00:44:54 [INFO] __main__: Generating AI summaries...
+2026-05-23 00:44:55 [INFO] __main__: Saved 1 tenders to database
+2026-05-23 00:44:55 [INFO] __main__: ============================================================
+2026-05-23 00:44:55 [INFO] __main__: Cycle complete. Reported 1 new tenders.
+2026-05-23 00:44:55 [INFO] __main__: ============================================================
+2026-05-23 12:34:16 [INFO] __main__: ============================================================
+2026-05-23 12:34:16 [INFO] __main__: Starting tender monitoring cycle
+2026-05-23 12:34:16 [INFO] __main__: ============================================================
+2026-05-23 12:34:16 [INFO] __main__: Scraping: CPPP (eProcure)
+2026-05-23 12:34:39 [INFO] __main__:   → Found 0 tenders from CPPP (eProcure)
+2026-05-23 12:34:39 [INFO] __main__: Scraping: GeM Portal
+2026-05-23 12:36:02 [INFO] __main__:   → Found 0 tenders from GeM Portal
+2026-05-23 12:36:02 [INFO] __main__: Scraping: NIC & Central PSUs
+2026-05-23 12:39:44 [INFO] __main__:   → Found 19 tenders from NIC & Central PSUs
+2026-05-23 12:39:44 [INFO] __main__: Scraping: State Portals
+2026-05-23 12:40:47 [INFO] __main__:   → Found 185 tenders from State Portals
+2026-05-23 12:40:47 [INFO] __main__: 
+Total raw tenders fetched: 204
+2026-05-23 12:40:47 [INFO] __main__: Relevant tenders after filtering: 1
+2026-05-23 12:40:47 [INFO] __main__: New tenders (not yet reported): 0
+2026-05-23 12:40:47 [INFO] __main__: No new tenders to report. Cycle complete.

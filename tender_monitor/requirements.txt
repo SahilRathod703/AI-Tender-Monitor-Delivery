@@ -1,0 +1,28 @@
+# ── Core ──────────────────────────────────────────────────────────────────────
+aiohttp==3.9.5
+beautifulsoup4==4.12.3
+lxml==5.2.1
+playwright==1.44.0          # Optional: for JS-heavy portals
+
+# ── AI / LLM ──────────────────────────────────────────────────────────────────
+anthropic==0.30.0
+
+# ── Database ───────────────────────────────────────────────────────────────────
+sqlalchemy==2.0.30
+aiosqlite==0.20.0           # async SQLite support (optional)
+psycopg2-binary==2.9.9      # PostgreSQL driver (optional, for production)
+
+# ── Scheduler ─────────────────────────────────────────────────────────────────
+APScheduler==3.10.4
+pytz==2024.1
+
+# ── Google Sheets ──────────────────────────────────────────────────────────────
+gspread==6.1.2
+google-auth==2.30.0
+google-auth-oauthlib==1.2.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv==1.0.1
+requests==2.32.3            # Sync fallback scraping
+tenacity==8.3.0             # Retry decorator
+rich==13.7.1                # Pretty CLI output (optional)
